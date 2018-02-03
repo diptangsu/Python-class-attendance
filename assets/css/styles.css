@@ -1,0 +1,90 @@
+body {
+    font-family: Cambria;
+    font-size: 20px;
+    background: #3a0000;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 10px;
+    margin: 10px;
+    background: #fdffe5;
+    text-align: center;
+}
+
+form {
+    padding: 15px;
+    display: inline-block;
+    text-align: left;
+}
+
+.clearfix {
+    text-align: center;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.register-btn {
+    color: black;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+.year-one, .year-two {
+    padding: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+}
