@@ -10,44 +10,58 @@
 }
 
 body {
-	background-color: #002d2d;
-	color: white;
+    background-color: #002d2d;
+    color: white;
 }
 
 th {
-	color: cyan;
-	padding: 3px;
+    color: cyan;
+    padding: 3px;
 }
 
 th.sun, td.sun {
-	color: red;
+    color: red;
 }
 
 td.present {
-	background-color: #83f23a;
-	color: black;
-	border: 1px solid black;
+    background-color: #83f23a;
+    color: black;
+    border: 1px solid black;
 }
 
 tbody {
-	color: white;
+    color: white;
 }
 
 td {
-	border: 1px solid yellow;
-	padding: 7px;
+    border: 1px solid yellow;
+    padding: 7px;
 }
 
 table {
-	border-collapse: collapse;
-	empty-cells: show;
+    border-collapse: collapse;
+    empty-cells: show;
 }
 
 caption {
-	color: #e3b3fc;
+    color: #e3b3fc;
 }
 
 .calendar {
-	float: left;
-	margin: 10px;
+    float: left;
+    margin: 10px;
+}
+
+.even, .odd {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.even {
+    background-color: #340211;
+}
+
+.odd {
+    background-color: #071030;
 }
