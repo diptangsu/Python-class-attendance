@@ -37,7 +37,6 @@ input[type=password]:focus {
 }
 
 /* Add padding to container elements */
-
 .container {
     padding: 10px;
     margin: 10px;

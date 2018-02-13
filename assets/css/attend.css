@@ -1,0 +1,16 @@
+body {
+    font-family: Cambria;
+    font-size: 20px;
+    background: #adffa3;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    padding: 10px;
+    margin: 10px;
+    background: #fdffe5;
+    text-align: center;
+}

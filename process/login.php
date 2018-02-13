@@ -68,12 +68,13 @@
 
 			// echo "$hr $min<br>";
 
-			if($hr > 0)
+			if($hr >= 0)
 			{
 
 				$queryAttendance = "insert into `attendance` (`student_id`, `date`) VALUES ('$studentID', '$today')";
 
 				$queryAttendanceDone = "select * from `attendance` where `student_id` = $studentID and `date` = '$today'";
+				
 				$result = query($queryAttendanceDone);
 				$done = mysqli_fetch_all($result, MYSQLI_ASSOC);
 				if(!$done)

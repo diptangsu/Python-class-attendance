@@ -30,15 +30,15 @@
 
                 <label><b>Year</b></label><br>
                 <select name="year" class="semi-square" required>
-                        <option value="" 
-                                selected 
-                                disabled 
-                                hidden>Choose year
-                        </option>
-                        <option value="1">1ˢᵗ</option>
-                        <option value="2">2ⁿᵈ</option>
-                        <option value="3">3ʳᵈ</option>
-                    </select>
+                    <option value="" 
+                            selected 
+                            disabled 
+                            hidden>Choose year
+                    </option>
+                    <option value="1">1ˢᵗ</option>
+                    <option value="2">2ⁿᵈ</option>
+                    <option value="3">3ʳᵈ</option>
+                </select>
                 <br><br>
 
                 <label><b>Department</b></label><br>
@@ -69,7 +69,7 @@
 
                 <button name="login" class="rounded" type="submit">
                         Sign Up
-                    </button>
+                </button>
             </form><br>
         </div>
     </div>

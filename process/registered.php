@@ -53,11 +53,9 @@
 			if(!mysqli_query($con, $queryInsert))
 				echo "ERROR: Unable to execute $queryInsert. " . mysqli_error($con);
 
-			$queryDisplay = "select * from `students`";
-
-			$result = query($queryDisplay);
-
-			$data = mysqli_fetch_all($result, MYSQLI_ASSOC);
+			// $queryDisplay = "select * from `students`";
+			// $result = query($queryDisplay);
+			// $data = mysqli_fetch_all($result, MYSQLI_ASSOC);
 			// print_r($data);
 			$str = "Thank you for registering.<br>
 			<a href=\"../views/login.php\">Login</a> to give your attendance.<br>";

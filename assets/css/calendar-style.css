@@ -1,0 +1,53 @@
+.clear {
+    clear: both;
+}
+
+.container {
+    padding: 10px;
+    margin: 10px;
+    background: #fdffe5;
+    text-align: center;
+}
+
+body {
+	background-color: #002d2d;
+	color: white;
+}
+
+th {
+	color: cyan;
+	padding: 3px;
+}
+
+th.sun, td.sun {
+	color: red;
+}
+
+td.present {
+	background-color: #83f23a;
+	color: black;
+	border: 1px solid black;
+}
+
+tbody {
+	color: white;
+}
+
+td {
+	border: 1px solid yellow;
+	padding: 7px;
+}
+
+table {
+	border-collapse: collapse;
+	empty-cells: show;
+}
+
+caption {
+	color: #e3b3fc;
+}
+
+.calendar {
+	float: left;
+	margin: 10px;
+}
